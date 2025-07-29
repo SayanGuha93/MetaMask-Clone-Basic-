@@ -1,0 +1,86 @@
+/* General Layout */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    width: 320px;
+    padding: 20px;
+    background: #fdfdfd;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Header */
+  h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 15px;
+  }
+  
+  /* Inputs */
+  input {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  /* Buttons */
+  button {
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px;
+    background: #4CAF50;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #43a047;
+  }
+  
+  /* Loading Text */
+  #center {
+    display: none;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Balance Display */
+  #balance_display {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #222;
+    font-size: 14px;
+  }
+  
+  /* Transaction Link */
+  #link {
+    display: none;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #1e88e5;
+    text-decoration: none;
+    word-break: break-all;
+  }
+  
+  #link:hover {
+    text-decoration: underline;
+  }
+  

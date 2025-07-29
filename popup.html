@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Crypto Wallet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>My Crypto Wallet</h2>
+
+  <!-- Private Key -->
+  <input id="private_key" type="text" placeholder="Enter Private Key">
+
+  <!-- Recipient Address -->
+  <input id="address" type="text" placeholder="Recipient Address">
+
+  <!-- Amount -->
+  <input id="amount" type="text" placeholder="Amount (MATIC)">
+
+  <!-- Send Transaction Button -->
+  <button id="form">Send Transaction</button>
+
+  <!-- Check Balance Button -->
+  <button id="check_balance">Check Balance</button>
+
+  <!-- Loading Indicator -->
+  <div id="center">⏳ Processing...</div>
+
+  <!-- Display Balance -->
+  <div id="balance_display"></div>
+
+  <!-- Transaction Link -->
+  <a id="link" target="_blank">View Transaction on Polygonscan</a>
+
+  <<script src="lib/ethers.umd.min.js"></script>
+
+  <script src="popup.js"></script>
+</body>
+</html>

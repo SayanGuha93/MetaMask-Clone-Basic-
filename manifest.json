@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "MyCryptoWallet",
+  "version": "1.0",
+  "description": "Transfers funds to the given addresses",
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "One.png",
+      "32": "One.png",
+      "48": "One.png",
+      "128": "One.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "One.png",
+    "32": "One.png",
+    "48": "One.png",
+    "128": "One.png"
+  }
+}
+
+  
